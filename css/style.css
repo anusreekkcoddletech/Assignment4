@@ -741,7 +741,7 @@ body {
     }
     .heading_section {
         font-size: 3px;
-        padding: 5% 6%;
+        padding: 5% 0;
     }
     .arrow_cover {
         width: 10%;
