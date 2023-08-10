@@ -36,16 +36,6 @@ body {
     font-size: 17px;
     color: #88929a;
 }
-.check_btn {
-    font-size: 30px;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-}
-#check {
-    display: none;
-}
 .other_icons {
     list-style: none;
     display: flex;
@@ -78,7 +68,7 @@ body {
     width: 46%;
     color: #fcfffd;
     position: absolute;
-    bottom: 21%;
+    bottom: 68%;
     z-index: 2;
     padding: 2% 3%;
 }
@@ -88,11 +78,11 @@ body {
 .arrow_cover {
     background-color: #5a6e79;
     width: 8%;
-    height: 20%;
+    height: 6%;
     padding: 3%;
     position: absolute;
-    bottom: -4%;
-    right: 30%;
+    bottom: 59%;
+    right: 29%;
     color: #fcfffd;
     z-index: 2;
 }
@@ -102,11 +92,11 @@ body {
 .square {
     position: absolute;
     left: 36%;
-    bottom: -4%;
+    bottom: 59%;
     z-index: 0;
     border: 2px solid black;
     width: 5%;
-    height: 15%;
+    height: 6%;
 }
 .vertical_line2 {
     height: 35px;
@@ -290,7 +280,6 @@ body {
 .feedback2 {
     background-color: #5a6e79;
     margin: 2%;
-    justify-content: space-between;
     padding: 40px;
     color: #fcfffd;
 }
@@ -389,27 +378,30 @@ body {
         font-size: 30px;
     }
     .intro {
-        width: 50%;
-        bottom: -42%;
+        width: 43%;
+        bottom: 43%;
         padding: 2% 12%;
     }
     .arrow_cover {
         width: 11%;
-        height: 31%;
+        height: 14%;
         padding: 4%;
-        bottom: -88%;
+        bottom: 25%;
         right: 13%;
     }
     .square {
         left: 26%;
-        bottom: -88%;
-        width: 8%;
-        height: 25%;
+        bottom: 25%;
+        width: 11%;
+        height: 14%;
     }
     .quality h3,
     .delivery h3,
     .warranty h3 {
         font-size: 23px;
+    }
+    .cover_pic_icons {
+        bottom: 35%;
     }
     .service_experience_text i {
         font-size: 44px;
@@ -429,28 +421,28 @@ body {
     }
     .intro {
         width: 42%;
-        height: 56%;
-        bottom: -20%;
-        padding: 1% 6%;
+        height: 35%;
+        bottom: 38%;
+        padding: 5% 6%;
     }
     .intro h2 {
         margin: 0;
     }
     .arrow_cover {
         width: 13%;
-        height: 26%;
+        height: 14%;
         padding: 4%;
-        bottom: -63%;
+        bottom: 25%;
         right: 7%;
     }
     .square {
         left: 21%;
-        bottom: -64%;
-        width: 9%;
-        height: 18%;
+        bottom: 24%;
+        width: 12%;
+        height: 12%;
     }
     .cover_pic_icons {
-        bottom: 34%;
+        bottom: 22%;
     }
     .quality h3,
     .delivery h3,
@@ -474,36 +466,49 @@ body {
         padding-right: 25%;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .heading_section {
         padding: 2% 7%;
+        font-size: 18px;
     }
     .intro {
         width: 52%;
-        height: 50%;
-        bottom: 16px;
+        height: 32%;
+        bottom: 255px;
         left: 0;
-        padding: 3% 7%;
+        padding: 2% 7%;
     }
     .intro h2 {
         font-size: 20px;
     }
     .arrow_cover {
         width: 14%;
-        height: 21%;
-        bottom: -30%;
+        height: 16%;
+        bottom: 23%;
     }
     .navigation_icons_left li a {
         font-size: 15px;
     }
     .square {
         left: 21%;
-        bottom: -31%;
+        bottom: 23%;
         width: 11%;
-        height: 17%;
+        height: 12%;
+    }
+    .square {
+        left: 21%;
+        bottom: 23%;
+        width: 10%;
+        height: 11%;
+    }
+    .display_contents {
+        margin-top: 9px;
     }
     .display_contents li {
-        font-size: 2px;
+        font-size: 1px;
+    }
+    .cover_pic_icons {
+        bottom: 35%;
     }
     .product_benefits_heading h2,
     .service_experience_text h2,
@@ -521,7 +526,7 @@ body {
         width: 60%;
     }
     .service_experience_text i {
-        font-size: 43px;
+        font-size: 32px;
         left: 52%;
     }
     .service_process_image {
@@ -537,7 +542,9 @@ body {
     }
     .learn_more {
         position: absolute;
-        left: 260px;
+        left: 284px;
+        width: 130px;
+        height: 45px;
     }
     .service_experience {
         padding: 2%;
@@ -546,8 +553,8 @@ body {
         padding-left: 7%;
     }
     .process_experience {
-        margin-top: 8%;
-    }
+        margin-top: 6%;
+   }
     .process_experience_heading h2 {
         position: absolute;
         left: 34%;
@@ -558,9 +565,34 @@ body {
     .numbers_of_experience h2 {
         font-size: 25px;
     }
+    .feedback_arrow_icon i {
+        font-size: 28px;
+    }
+    .feedback1 i, .feedback2 i {
+        font-size: 30px;
+    }
+    .feedback1, .feedback2 {
+        padding: 22px;
+    }
+    .subscription_box {
+        margin-left: 12%;
+        width: 58%;
+    }
 }
 @media (max-width: 426px) {
 
+    .heading_section {
+        padding: 0% 19px;
+    }
+    .header_text {
+        font-size: 17px;
+    }
+    .navigation_icons_left li {
+        padding: 1px 12px;
+    }
+    .other_icons {
+        gap: 25px;
+    }
     .navigation_icons_left {
         flex-direction: column;
     }
@@ -569,17 +601,29 @@ body {
     .cover_pic_icons {
         display: none;
     }
+    .cover_pic img {
+        padding: 0;
+    }
+    .cover_pic{
+        padding: 0;
+    }
     .benefits,
     .service_experience,
     .customer_feedback {
         flex-direction: column;
     }
+    .product_benefits {
+        font-family: 'Poppins', sans-serif;
+        padding: 5%;
+        margin-top: 45%;
+    }
     .intro {
-        width: 70%;
-        height: 47%;
-        bottom: -11px;
+        width: 90%;
+        height: 24%;
+        bottom: 50px;
         left: 0;
-        padding: 0% 7%;
+        padding: 2% 4% 3% 8%;
+        left: 5%;
     }
     .intro h2 {
         font-size: 18px;
@@ -588,16 +632,22 @@ body {
     .intro p {
         font-size: 1px;
     }
+    .product_benefits_heading h2, .service_experience_text h2, .process_experience_heading h2, .feedback_heading h2, .about h2 {
+        font-size: 24px;
+    }
     .service_image {
         width: 100%;
         padding: 0;
+        margin-bottom: 4%;
     }
     .vertical_line1 {
-        height: 125px;
+        height: 94px;
     }
     .learn_more {
-        left: 79px;
-    }
+        left: 140px;
+        width: 109px;
+        height: 42px;
+    }    
     .inner_bottom_content {
         flex-direction: column;
     }
@@ -612,6 +662,10 @@ body {
         padding-top: 18%;
         width: 100%;
     }
+    .service_experience_text i {
+        font-size: 28px;
+        left: 57%;
+    }
     .subscription_box {
         margin-left: -2%;
         width: 89%;
@@ -623,23 +677,45 @@ body {
     .social_media_icons {
         padding-left: 17%;
     }
-    .process_experience {
-        margin-top: 8%;
-    }
     .process_experience_heading h2 {
         left: 18%;
     }
     .process_experience_text h3 {
-        margin-top: 15%;
+        margin-top: 10%;
     }
     .numbers_of_experience {
         gap: 18%;
+    }
+    .feedback_arrow_icon i {
+        font-size: 25px;
+    }
+    .feedback_arrow_icon {
+        gap: 8px;
+    }
+    .feedback1 i, .feedback2 i {
+        font-size: 35px;
+    }
+    .feedback1, .feedback2 {
+        padding: 25px;
+        margin: 2% 0;
     }
 }
 @media (max-width: 376px) {
 
     .heading_section {
-        padding: 2%;
+        padding: 0% 19px;
+    }
+    .header_text {
+        font-size: 16px;
+    }
+    .navigation_icons_left li {
+        padding: 1px 12px;
+    }
+    .other_icons {
+        gap: 25px;
+    }
+    .cover_pic img {
+        padding: 0;
     }
     .numbers_of_experience {
         gap: 15%;
@@ -658,11 +734,11 @@ body {
         flex-direction: column;
     }
     .intro {
-        width: 70%;
-        height: 55%;
-        bottom: -19px;
-        left: 0;
-        padding: 1% 3% 1% 10%;
+        width: 91%;
+        height: 27%;
+        bottom: 55px;
+        padding: 2% 6% 3% 5%;
+        left: 5%;
     }
     .intro h2 {
         font-size: 18px;
@@ -671,25 +747,37 @@ body {
     .intro p {
         font-size: 3px;
     }
+    .product_benefits {
+        margin-top: 55%;
+    }
     .service_experience_text i {
-        left: 58%;
+        font-size: 31px;
+        left: 59%;
+    }
+    .service_image {
+        margin-bottom: 4%;
+    }
+    .learn_more {
+        left: 112px;
+        width: 120px;
+        height: 45px;
+    }
+    .horizondal_line {
+        margin-right: 22px;
     }
     .process_experience_heading h2 {
         left: 18%;
         margin-bottom: 5%;
     }
-    .process_experience {
-        margin-top: 11%;
-    }
     .process_experience_text h3 {
-        margin-top: 21%;
+        margin-top: 10%;
     }
     .vertical_line1 {
-        height: 150px;
+        height: 128px;
     }
     .process_experience {
         flex-direction: column;
-        margin-top: 16%;
+        margin-top: 11%;
     }
     .service_process_image {
         padding-top: 7%;
@@ -701,10 +789,23 @@ body {
     .process_experience_heading h2,
     .feedback_heading h2,
     .about h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
     .numbers_of_experience {
         gap: 15%;
+    }
+    .feedback_arrow_icon {
+        gap: 9px;
+    }
+    .feedback1 i, .feedback2 i {
+        font-size: 33px;
+    }
+    .feedback_arrow_icon i {
+        font-size: 25px;
+    }
+    .feedback1, .feedback2 {
+        padding: 30px;
+        margin: 2% 0;
     }
     .subscription_box {
         margin-left: 3%;
@@ -722,6 +823,9 @@ body {
     .navigation_icons_left {
         flex-direction: column;
         font-size: 1px;
+    }
+    .cover_pic {
+        padding: 0%;
     }
     .cover_pic_icons {
         display: flex;
@@ -741,7 +845,10 @@ body {
     }
     .heading_section {
         font-size: 3px;
-        padding: 5% 0;
+        padding: 5% 12px;
+    }
+    .other_icons {
+        gap: 25px;
     }
     .arrow_cover {
         width: 10%;
@@ -757,8 +864,11 @@ body {
         font-size: 24px;
     }
     .navigation_icons_left li a {
-        font-size: 15px;
+        font-size: 9px;
 
+    }
+    .navigation_icons_left li {
+        padding: 2px 14px;
     }
     .square {
         left: 21%;
@@ -766,17 +876,22 @@ body {
         width: 8%;
         height: 7%;
     }
-    .intro{
-        width: 60%;
-        height: 53%;
-        bottom: 36px;
+    .intro {
+        width: 92%;
+        height: 29%;
+        bottom: 111px;
+        padding: 2% 2% 2% 5%;
+        left: 4%;
     }
     .intro p {
-        font-size: 3px;
+        font-size:1px;
     }
     .intro h2 {
-        font-size: 18px;
+        font-size: 20px;
         margin: 0;
+    }
+    .horizondal_line {
+        margin-right: 17px;
     }
     .service_image {
         width: 100%;
@@ -795,15 +910,24 @@ body {
     .warranty h3 {
         font-size: 16px;
     }
+    .product_benefits {
+        margin-top: 66%;
+    }
     .service_experience_text i {
-        font-size: 38px;
-        left: 67%;
+        font-size: 25px;
+        left: 63%;
     }
     .learn_more {
-        left: 75px;
+        left: 104px;
+        width: 103px;
+        height: 38px;
+    }
+    .numbers h4 {
+        height: 45px;
+        width: 45px;
     }
     .vertical_line1 {
-        height: 150px;
+        height: 135px;
     }
     .process_experience_heading h2 {
         left: 7%;
@@ -826,9 +950,14 @@ body {
     .feedback1,
     .feedback2 {
         background-color: #5a6e79;
-        margin: 2%;
-        justify-content: space-between;
-        padding: 30px;
+        margin: 2% 0;
+        padding: 18px;
+    }
+    .feedback1 i, .feedback2 i {
+        font-size: 33px;
+    }
+    .feedback_arrow_icon i {
+        font-size: 25px;
     }
     .display_contents li {
         font-size: 1px;
@@ -839,11 +968,14 @@ body {
     .numbers_of_experience h2 {
         font-size: 22px;
     }
+    .about_links h3, .company_links h3, .support_links h3, .social_media_links h3, .social_media_icons h3{
+        margin-bottom: 3px;
+    }
     .inner_bottom_content {
         flex-direction: column;
     }
     .subscription_box {
-        margin-left: -5%;
-        width: 94%;
+        margin-left: -3%;
+        width: 90%;
     }
 }
