@@ -777,7 +777,7 @@ body {
     }
     .intro {
         width: 55%;
-        top: 8%;
+        top: 6%;
         padding: 2% 11%;
     }
     .intro h2 {
@@ -937,7 +937,7 @@ body {
     }
     .intro {
         width: 72%;
-        height: 15%;
+        height: 12%;
         top: 88px;
         padding: 2% 3%;
         left: 0;
@@ -1138,8 +1138,8 @@ body {
     }
     .intro {
         width: 62%;
-        height: 16%;
-        top: 68px;
+        height: 14%;
+        top: 2%;
         padding: 2% 3%;
         left: 0;
     }
