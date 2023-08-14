@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-</head>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 <body>
     <div class="inner_class">
         <header>
@@ -18,13 +18,17 @@
                 <div class="heading_section">
                     <p class="header_text">Luxterior</p>
                     <div class="navigation_icons">
-                        <nav>
+                        <nav id="navLinks">
+                            <input type="checkbox" id="checking">
                             <ul class="navigation_icons_left">
                                 <li><a href="#Home">Home</a></li>
                                 <li><a href="#About">About</a></li>
                                 <li><a href="#Features">Features</a></li>
                                 <li><a href="#Contacts">Contacts</a></li>
                             </ul>
+                            <label for="checking" class="checkbutton">
+                                <i class="fa fa-bars"></i>
+                            </label>
                         </nav>
                     </div>
                     <div class="icons">
@@ -217,7 +221,7 @@
                         <h3>The service provided is very good <br>and friendly</h3>
                         <p>"At that time I wanted to make a chair,I absolutely loved,my designer
                             really took my space to the next level.I never dreamed my home could look-and feel-this
-                            good!</p>
+                            good!"</p>
                         <div class="row_container">
                             <img src="images/user2.jpg" alt="user image2">
                             <div class="user_details">
