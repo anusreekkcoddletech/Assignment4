@@ -141,7 +141,7 @@ p{
     list-style: none;
 }
 .display_contents {
-    margin-top: 80px;
+    margin-top: 45px;
 }
 .product_benefits {
     font-family: 'Poppins', sans-serif;
@@ -543,9 +543,6 @@ footer{
         flex: 1;
         padding: 0;
         margin: auto;
-    }
-    .display_contents {
-        margin-top: 9px;
     }
     .display_contents li {
         font-size: 1px;
