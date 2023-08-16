@@ -180,7 +180,7 @@ p{
 .service_image {
     width: 38%;
 }
-.service_image img .service_process_image img{
+.service_image img ,.service_process_image img{
     width: 100%;
 }
 .service_experience {
