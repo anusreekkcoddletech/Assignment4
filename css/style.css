@@ -147,9 +147,6 @@ p{
     font-family: 'Poppins', sans-serif;
     margin-top: 8%;
 }
-.product_benefits_heading {
-    display: flex;
-}
 .product_benefits_heading h2 {
     flex: 1;
 }
@@ -159,7 +156,7 @@ p{
     font-size: 29px;
     margin: 0;
 }
-.row_container {
+.row_container ,.product_benefits_heading,.customer_feedback {
     display: flex;
 }
 .horizondal_line {
@@ -183,7 +180,7 @@ p{
 .service_image {
     width: 38%;
 }
-.service_image img {
+.service_image img .service_process_image img{
     width: 100%;
 }
 .service_experience {
@@ -191,7 +188,7 @@ p{
     display: flex;
     justify-content: space-between;
 }
-.service_experience_text {
+.service_experience_text,.process_experience_heading,.feedback {
     font-family: 'Poppins', sans-serif;
 }
 .learn_more i {
@@ -227,9 +224,6 @@ p{
     margin-bottom: 3%;
     justify-content: space-between;
 }
-.process_experience_heading {
-    font-family: 'Poppins', sans-serif;
-}
 .process_experience_heading h2{
     margin-bottom: 10%;
 }
@@ -259,12 +253,6 @@ p{
 .service_process_image {
     width: 38%;
 }
-.service_process_image img {
-    width: 100%;
-}
-.feedback {
-    font-family: 'Poppins', sans-serif;
-}
 .feedback_heading {
     display: flex;
     justify-content: space-between;
@@ -283,9 +271,6 @@ p{
 .feedback1 i,
 .feedback2 i {
     font-size: 45px;
-}
-.customer_feedback {
-    display: flex;
 }
 .feedback1,
 .feedback2 {
@@ -950,7 +935,7 @@ footer{
     {
         padding: 0 4%;
     }
-    }
+}
 @media (min-width: 300px)  and (max-width: 374px) {
     nav input{
         display: none;
