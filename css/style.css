@@ -417,9 +417,15 @@ footer{
         width: 38%;
         margin-top: 8%;
     }
-    .process_experience,.feedback,.service_experience,.product_benefits,.inner_bottom
+    .process_experience,.feedback,.service_experience,.product_benefits
     {
         padding: 0 4%;
+    }
+    .inner_bottom {
+        padding: 6% 2%;
+    }
+    .subscription_box {
+        margin-top: -9%;
     }
 }
 @media (min-width: 901px) and (max-width:1024px) {
@@ -470,8 +476,11 @@ footer{
         padding: 0 4%;
     }
     .subscription_box{
-        margin-top: -6%;
+        margin-top: -9%;
         margin-left: 22%;
+    }
+    .inner_bottom {
+        padding: 6% 2%;
     }
 }
 @media (min-width: 800px) and (max-width:900px){
