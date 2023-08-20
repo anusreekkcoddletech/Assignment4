@@ -190,6 +190,9 @@ body {
 .service_image {
     width: 38%;
 }
+.service_process_image {
+    max-width: 40%;
+}
 .service_image img ,.service_process_image img{
     width: 100%;
 }
@@ -243,7 +246,8 @@ body {
     margin-bottom: 10%;
 }
 .process_experience_text h3 {
-    margin-top: 8%;
+    margin-top: 4%;
+    font-size: 29px;
 }
 .numbers h4 {
     background-color: #5a6e79;
@@ -383,8 +387,8 @@ footer{
         width: 52%;
         padding: 1% 4% 2% 18%;
     }
-    .service_process_image{
-        max-width: 50%;
+    .service_process_image {
+        max-width: 40%;
     }
     .square {
         top: 86%;
@@ -409,7 +413,7 @@ footer{
     .intro {
         top: 26%;
         width: 46%;
-        padding: 4% 10%;
+        padding: 2% 1% 4% 10%;
     }
     .checkbutton i{
         display: none;
@@ -426,7 +430,7 @@ footer{
 @media (min-width: 1024px) and (max-width:1200px) {
     .intro {
         top: 22%;
-        padding: 5% 4% 3% 12%;
+        padding: 3% 1% 5% 12%;
     }
     .quality h3, .delivery h3, .warranty h3 {
         font-size: 27px;
@@ -445,7 +449,7 @@ footer{
     }
     .process_experience_text h3 {
         margin-top: 4%;
-        font-size: 27px;
+        font-size: 20px;
     }
     .inner_bottom {
         padding: 6% 2%;
@@ -472,8 +476,8 @@ footer{
         display: none;
     }
     .intro {
-        top: 32%;
-        padding: 3% 3% 2% 8%;
+        top: 34%;
+        padding: 4% 1% 4% 10%;
     }
     .intro h2 {
         margin: 0;
@@ -510,9 +514,9 @@ footer{
 }
 @media (min-width: 800px) and (max-width:900px){
     .intro {
-        top: 20%;
-        width: 58%;
-        padding: 2% 2% 3% 10%;
+        top: 17%;
+        width: 52%;
+        padding: 2% 1% 3% 12%;
     }
     .cover_pic_icons ul li {
         font-size: 2%;
@@ -550,8 +554,8 @@ footer{
         font-size: 18px;
     }
     .intro {
-        top: 26%;
-        width: 59%;
+        top: 24%;
+        width: 52%;
         padding: 2% 1% 3% 11%;
     }
     .intro h2 {
@@ -603,7 +607,7 @@ footer{
     }
     .learn_more {
         position: absolute;
-        left: 48%;
+        left: 57%;
         width: 130px;
         height: 45px;
     }
@@ -615,6 +619,10 @@ footer{
    }
     .process_experience_text_content {
         margin-top: 20%;
+    }
+    .process_experience_text h3 {
+        margin-top: 4%;
+        font-size: 18px;
     }
     .numbers_of_experience h2 {
         font-size: 25px;
@@ -703,15 +711,15 @@ footer{
     }
     .intro {
         top: 10%;
-        width: 69%;
-        padding: 3% 1% 2% 4%;
+        width: 71%;
+        padding: 2% 1% 3% 6%;
     }
     .intro h2 {
         font-size: 18px;
         margin: 0;
     }
     .intro p {
-        font-size: 1%;
+        font-size: 1px;
     }
     .arrow_cover i {
         font-size: 30px;
@@ -754,7 +762,7 @@ footer{
     }
     .service_process_image {
         padding-top: 18%;
-        width: 100%;
+        max-width: 100%;
     }
     .subscription_box {
         margin-left: 6%;
@@ -769,6 +777,7 @@ footer{
     }
     .process_experience_text h3 {
         margin-top: 5%;
+        font-size: 18px;
     }
     .numbers_of_experience {
         gap: 18%;
@@ -863,9 +872,9 @@ footer{
         flex-direction: column;
     }
     .intro {
-        top: 10%;
+        top: 14%;
         width: 77%;
-        padding: 2% 1% 2% 5%;
+        padding: 2% 1% 3% 5%;
     }
     .intro h2 {
         font-size: 17px;
@@ -913,6 +922,7 @@ footer{
     }
     .process_experience_text h3 {
         margin-top: 10%;
+        font-size: 17px;
     }
     .process_experience {
         flex-direction: column;
@@ -924,7 +934,7 @@ footer{
     }
     .service_process_image {
         padding-top: 7%;
-        width: 100%;
+        max-width: 100%;
         margin-bottom: 5%;
     }
     .product_benefits_heading h2,
@@ -984,7 +994,7 @@ footer{
     #navLinks{
         position: absolute;
         top: 16px;
-        right: 47px;
+        right: 13px;
         z-index: 3;
         text-align: right;
     }
@@ -1073,9 +1083,9 @@ footer{
         height: 7%;
     }
     .intro {
-        top: 8%;
-        width: 86%;
-        padding: 2% 5%;
+        top: 45%;
+        width: 100%;
+        padding: 2% 7%;
         font-size: 13px;
     }
     .intro h2 {
@@ -1106,7 +1116,7 @@ footer{
         font-size: 16px;
     }
     .product_benefits {
-        margin-top: 10%;
+        margin-top: 60%;
     }
     .service_experience_text {
         padding-left: 4%;
@@ -1139,6 +1149,7 @@ footer{
     }
     .process_experience_text h3 {
         margin-top: 12%;
+        font-size: 17px;
     }
     .process_experience {
         flex-direction: column;
@@ -1146,7 +1157,7 @@ footer{
     }
     .service_process_image {
         padding-top: 7%;
-        width: 100%;
+        max-width: 100%;
         margin-bottom: 5%;
     }
     .feedback_arrow_icon {
