@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&family=Poppins:wght@300;400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -18,13 +21,17 @@
                 <div class="heading_section">
                     <p class="header_text">Luxterior</p>
                     <div class="navigation_icons">
-                        <nav>
+                        <nav id="navLinks">
+                            <input type="checkbox" id="checking">
                             <ul class="navigation_icons_left">
                                 <li><a href="#Home">Home</a></li>
                                 <li><a href="#About">About</a></li>
                                 <li><a href="#Features">Features</a></li>
                                 <li><a href="#Contacts">Contacts</a></li>
                             </ul>
+                            <label for="checking" class="checkbutton">
+                                <i class="fa fa-bars"></i>
+                            </label>
                         </nav>
                     </div>
                     <div class="icons">
@@ -36,8 +43,8 @@
                 </div>
             </div>
         </header>
-        <div class="container">
-            <div class="introduction">
+        <div class="introduction">
+            <div class="container">
                 <div class="cover_pic">
                     <img src="images/cover.jpeg" alt="interior">
                     <div class="cover_pic_icons">
@@ -55,22 +62,19 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="square">
-                </div>
-                <div class="arrow_cover">
-                    <i class="fa fa-arrow-down"></i>
+                    <div class="square">
+                    </div>
+                    <div class="arrow_cover">
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="intro">
-            <div class="container">
+            <div class="intro">
                 <h2>We help you<br> make modern<br>interior</h2>
                 <p>We will help you to make an elegant<br> and luxurious interior designed by<br>
                     professional interior designers.</p>
             </div>
         </div>
-
         <div class="container">
             <div class="product_benefits">
                 <div class="product_benefits_heading">
@@ -79,7 +83,7 @@
                 </div>
                 <div class="benefits">
                     <div class="row_container">
-                        <div class="benifits_icon">
+                        <div class="benifits_icon1">
                             <i class='fas fa-award'></i>
                         </div>
                         <div class="quality">
@@ -89,7 +93,7 @@
                         </div>
                     </div>
                     <div class="row_container">
-                        <div class="benifits_icon">
+                        <div class="benifits_icon2">
                             <i class="fa fa-truck"></i>
                         </div>
                         <div class="delivery">
@@ -98,7 +102,7 @@
                         </div>
                     </div>
                     <div class="row_container">
-                        <div class="benifits_icon">
+                        <div class="benifits_icon3">
                             <i class="fa fa-check-circle"></i>
                         </div>
                         <div class="warranty">
@@ -134,8 +138,9 @@
                             <p>Furnitures<br>sold</p>
                         </div>
                     </div>
-                    <button type="button" class="learn_more" value="Learn more">Learn more</button>
-                    <i class='fas fa-long-arrow-alt-right'></i>
+                    <button type="button" class="learn_more" value="Learn more">Learn more
+                        <i class='fas fa-long-arrow-alt-right'></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -151,10 +156,8 @@
                             </div>
                             <div class="process_experience_text">
                                 <h3>Briefing</h3>
-                                <p>First thing you determine the concept and model you want,<br>then choose what colors
-                                    and
-                                    materials you
-                                    want to use in your furniture.</p>
+                                <p>First thing you determine the concept and model you want,then choose what colors and
+                                    materials you want to use in your furniture.</p>
                             </div>
                         </div>
                         <div class="row_container">
@@ -164,9 +167,9 @@
                             </div>
                             <div class="process_experience_text">
                                 <h3>Processing</h3>
-                                <p>When the briefing process is complete and what the<br> client wants has been
+                                <p>When the briefing process is complete and what the client wants has been
                                     achieved.Then we
-                                    carry out the<br>
+                                    carry out the
                                     execution of the desired concept. </p>
                             </div>
                         </div>
@@ -176,8 +179,8 @@
                             </div>
                             <div class="process_experience_text">
                                 <h3>Finishing</h3>
-                                <p>After the process is complete,we will immediately<br>
-                                    carry out the finishing stage and we do it carefully and<br>
+                                <p>After the process is complete,we will immediately
+                                    carry out the finishing stage and we do it carefully and
                                     make sure there are no mistakes.</p>
                             </div>
                         </div>
@@ -217,7 +220,7 @@
                         <h3>The service provided is very good <br>and friendly</h3>
                         <p>"At that time I wanted to make a chair,I absolutely loved,my designer
                             really took my space to the next level.I never dreamed my home could look-and feel-this
-                            good!</p>
+                            good!"</p>
                         <div class="row_container">
                             <img src="images/user2.jpg" alt="user image2">
                             <div class="user_details">
@@ -237,17 +240,17 @@
             </div>
         </div>
         <footer>
-            <div class="inner_bottom">
-                <div class="row_container">
-                    <form>
-                        <div class="subscription_box">
-                            <input class="email_address" type="text" name="search"
-                                placeholder="Enter your email address">
-                            <input class="subscribe" type="submit" value="Subscribe">
-                        </div>
-                    </form>
-                </div>
-                <div class="container">
+            <div class="container">
+                <div class="inner_bottom">
+                    <div class="row_container">
+                        <form>
+                            <div class="subscription_box">
+                                <input class="email_address" type="text" name="search"
+                                    placeholder="Enter your email address">
+                                <input class="subscribe" type="submit" value="Subscribe">
+                            </div>
+                        </form>
+                    </div>
                     <div class="inner_bottom_content">
                         <div class="Luxterior">
                             <h3>Luxterior</h3>
